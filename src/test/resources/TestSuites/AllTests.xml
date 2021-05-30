@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="AllTests" verbose="1" >
+
+
+  <test name="ValidationTests" >
+    <classes>
+       <class name="com.greenkart.ValidationTests" />
+    </classes>
+  </test>
+ 
+  <test name="AddingProduct">
+    <classes>
+      <class name="com.greenkart.AddingProduct"/>
+    </classes>
+  </test>
+  
+    <test name="AddingMultipleProd">
+    <classes>
+      <class name="com.greenkart.AddingMultipleProd"/>
+    </classes>
+  </test>
+  
+  
+</suite>

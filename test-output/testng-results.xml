@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-30T16:01:00 IST" name="AllTests" finished-at="2021-05-30T16:01:38 IST" duration-ms="37674">
+    <groups>
+    </groups>
+    <test started-at="2021-05-30T16:01:00 IST" name="ValidationTests" finished-at="2021-05-30T16:01:05 IST" duration-ms="4560">
+      <class name="com.greenkart.ValidationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.greenkart.ValidationTests@52102734]" started-at="2021-05-30T16:01:00 IST" name="setUp" finished-at="2021-05-30T16:01:02 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validTest()[pri:1, instance:com.greenkart.ValidationTests@52102734]" started-at="2021-05-30T16:01:02 IST" name="validTest" finished-at="2021-05-30T16:01:04 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validTest -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:com.greenkart.ValidationTests@52102734]" started-at="2021-05-30T16:01:04 IST" name="closeWindow" finished-at="2021-05-30T16:01:05 IST" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- com.greenkart.ValidationTests -->
+    </test> <!-- ValidationTests -->
+    <test started-at="2021-05-30T16:01:05 IST" name="AddingProduct" finished-at="2021-05-30T16:01:26 IST" duration-ms="21630">
+      <class name="com.greenkart.AddingProduct">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.greenkart.AddingProduct@7a419da4]" started-at="2021-05-30T16:01:05 IST" name="setUp" finished-at="2021-05-30T16:01:22 IST" duration-ms="17372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addingSingleProduct()[pri:2, instance:com.greenkart.AddingProduct@7a419da4]" started-at="2021-05-30T16:01:22 IST" name="addingSingleProduct" finished-at="2021-05-30T16:01:25 IST" duration-ms="3227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingSingleProduct -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:com.greenkart.AddingProduct@7a419da4]" started-at="2021-05-30T16:01:25 IST" name="closeWindow" finished-at="2021-05-30T16:01:26 IST" duration-ms="1026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- com.greenkart.AddingProduct -->
+    </test> <!-- AddingProduct -->
+    <test started-at="2021-05-30T16:01:26 IST" name="AddingMultipleProd" finished-at="2021-05-30T16:01:38 IST" duration-ms="11401">
+      <class name="com.greenkart.AddingMultipleProd">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.greenkart.AddingMultipleProd@49c7b90e]" started-at="2021-05-30T16:01:26 IST" name="setUp" finished-at="2021-05-30T16:01:28 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addMultipleProducts()[pri:3, instance:com.greenkart.AddingMultipleProd@49c7b90e]" started-at="2021-05-30T16:01:28 IST" name="addMultipleProducts" finished-at="2021-05-30T16:01:37 IST" duration-ms="9293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleProducts -->
+        <test-method is-config="true" signature="closeWindow()[pri:0, instance:com.greenkart.AddingMultipleProd@49c7b90e]" started-at="2021-05-30T16:01:37 IST" name="closeWindow" finished-at="2021-05-30T16:01:38 IST" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- com.greenkart.AddingMultipleProd -->
+    </test> <!-- AddingMultipleProd -->
+  </suite> <!-- AllTests -->
+</testng-results>
